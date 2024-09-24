@@ -21,11 +21,11 @@ img{
 
 /* DEBUG */
 
-.debug{
+/* .debug{
     border: 1px;
     border-style: dashed;
     padding: 20px;
-}
+} */
 
 /* HEADER */
 
@@ -76,6 +76,20 @@ img{
     padding: 5px;
     top: 5px;
     right: 0;
+}
+
+.container-info-prd{
+    position: relative; 
+}
+
+.info-patch-euro{
+    position: absolute;
+    background-color: red;
+    color: white;
+    padding: 3px 6px;
+    font-size: 8px;
+    bottom: 23px;
+    left: 0;
 }
 
 /* FOOTER */
