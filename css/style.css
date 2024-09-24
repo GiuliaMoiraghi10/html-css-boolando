@@ -14,14 +14,25 @@ a{
 
 .debug{
     border: 1px;
-    background-color: aqua;
     border-style: dashed;
-    padding: 50px 24px;
+    padding: 20px;
 }
 
 .navbar{
-    min-height: 73px;
+    min-height: 38px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-prd{
+    min-height: 835px;
+    width: auto;
+}
+
+.row-prd{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
