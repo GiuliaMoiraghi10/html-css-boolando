@@ -109,6 +109,16 @@ img{
 .prd-bold{
     font-weight: 900;
 }
+
+.price{
+    color: red;
+    font-weight: 700;
+}
+
+.price-old{
+    text-decoration: line-through;
+}
+
 /* FOOTER */
 .social-ft{
     min-height: 58px;
