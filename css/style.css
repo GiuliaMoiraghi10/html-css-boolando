@@ -152,8 +152,8 @@ img{
     text-decoration: line-through;
 }
 
-.img-col:hover{
-    background-image: url(../img/1b.webp);
+.img-col-1:image-hover{
+    
 }
 
 /* FOOTER */
