@@ -10,6 +10,7 @@ html{
 
 a{
     text-decoration: none;
+    color: white;
 }
 
 img{
@@ -53,3 +54,12 @@ img{
     margin-bottom: 12px;
 }
 
+/* FOOTER */
+.social-ft{
+    min-height: 58px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1A1A1A;
+    color: white;
+}
