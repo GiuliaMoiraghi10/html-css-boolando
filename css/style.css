@@ -2,6 +2,8 @@ html{
     font-family: "Lato", sans-serif;
 }
 
+/* DEFAULT */
+
 *{
     box-sizing: border-box;
     margin: 0 auto;
@@ -17,11 +19,15 @@ img{
     width: 100%;
 }
 
+/* DEBUG */
+
 .debug{
     border: 1px;
     border-style: dashed;
     padding: 20px;
 }
+
+/* HEADER */
 
 .navbar{
     min-height: 38px;
@@ -31,6 +37,8 @@ img{
     background-color: #FF6900;
     color: white;
 }
+
+/* MAIN */
 
 .container-prd{
     min-height: 835px;
@@ -52,6 +60,22 @@ img{
     font-size: 10px;
     padding: 6px;
     margin-bottom: 12px;
+    position: relative;
+}
+
+.container-heart{
+    position: relative;
+}
+
+.heart{
+    position: absolute;
+    background-color: white;
+    background-position: center;
+    width: 28px;
+    height: 28px;
+    padding: 5px;
+    top: 5px;
+    right: 0;
 }
 
 /* FOOTER */
