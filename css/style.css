@@ -4,12 +4,16 @@ html{
 
 *{
     box-sizing: border-box;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
 
 a{
     text-decoration: none;
+}
+
+img{
+    width: 100%;
 }
 
 .debug{
@@ -35,4 +39,15 @@ a{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    max-width: 736px;
+    min-height: 770px;
+}
+
+.col-1_3{
+    width: calc(100% / 3);
+    font-size: 10px;
+}
+
+.img-col{
+    height: 345px;
 }
