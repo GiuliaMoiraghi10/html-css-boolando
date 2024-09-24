@@ -13,6 +13,7 @@ html{
 a{
     text-decoration: none;
     color: white;
+    margin-right: 4px;
 }
 
 img{
@@ -36,7 +37,7 @@ img{
 
 .navbar{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     color: white;
     font-size: 12px;
@@ -52,7 +53,7 @@ img{
 
 .nav-category{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-content: center;
     gap: 20px;
 }
@@ -151,6 +152,10 @@ img{
     text-decoration: line-through;
 }
 
+.img-col:hover{
+    background-image: url(../img/1b.webp);
+}
+
 /* FOOTER */
 .social-ft{
     min-height: 58px;
@@ -159,4 +164,9 @@ img{
     align-items: center;
     background-color: #1A1A1A;
     color: white;
+    padding: 20px;
+}
+
+.info-footer{
+    font-size: 12px;
 }
