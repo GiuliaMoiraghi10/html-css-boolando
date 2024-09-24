@@ -29,12 +29,44 @@ img{
 
 /* HEADER */
 
-.navbar{
+.nav-header{
+    background-color: #FF6900;
     min-height: 38px;
+}
+
+.navbar{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #FF6900;
+    color: white;
+    font-size: 12px;
+    max-width: 750px;
+    padding: 8px;
+}
+
+.logo{
+    background-size: cover;
+    width: 74px;
+    height: 20px;
+}
+
+.nav-category{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    gap: 20px;
+}
+
+.nav-icon{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
     color: white;
 }
 
