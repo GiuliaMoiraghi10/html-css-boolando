@@ -107,7 +107,7 @@ img{
     width: 28px;
     height: 28px;
     padding: 5px;
-    top: 5px;
+    top: 21px;
     right: 0;
 }
 
@@ -152,9 +152,6 @@ img{
     text-decoration: line-through;
 }
 
-.img-col-1:image-hover{
-    
-}
 
 /* FOOTER */
 .social-ft{
